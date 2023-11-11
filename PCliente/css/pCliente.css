@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;500;600&display=swap');
+
+a {
+    color: #000; 
+    text-decoration: none; 
+}
+
+a:hover {
+    color: #FF0054; 
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family:"Fredoka";
+}
+
+.container{
+    display: flex;
+}
+
+#navegador{
+    width: 205px;
+    height: 100%;
+    padding: 10px;
+}
+
+img{
+    margin-top: 0;
+    width: 170px;
+    height: auto;
+}
+
+ul {
+    list-style-type: none;  
+}
+
+li {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+#centro {
+    flex: 1;
+    padding-top: 0%;
+    padding-left: 0%;
+}
+  
+#titulo{
+    color: black;
+    font-size: 45px;
+    font-weight: 400;
+    word-wrap: break-word;
+    margin-top: 10px;
+}
+
+#fondo-perfil{
+    width: 100%; 
+    max-height: 200px;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+
+#foto-perfil{
+    height: 6rem;
+    width: 6rem; 
+    height: 100px;
+    width: 100px;
+    margin-top: -55px;
+    margin-bottom: 8px;
+    border-radius: 50px;
+    padding-left: 10px; 
+}
+
+.profile-info p{
+    font-size: 30px; 
+    color: #696969; 
+    margin: 0;
+    flex-grow: 1;
+}
+
+.profile-info {
+    display: flex;
+    justify-content: space-between; 
+    width: 100%;
+}
+
+#btn-perfil{
+    margin: 10px;
+    border-radius: 20px;
+    background: #FF0054;
+    width: 150px;
+    height: 65px;
+    flex-shrink: 0;
+    text-align: center;
+    align-items: center;
+    border-color: #FF0054;
+    font-size:large;
+}
+
+.btn-perfil{
+    color: #ffffff;
+}
+
+.image{
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+    border: 1px solid gray;
+    display: inline-block;
+    padding: 3px;
+    border: 3px solid #d2d6de;
+    margin-top: 20px;
+    margin-right: 57px;
+    margin-left: 57px;
+}
+
+#btn-editar{
+    margin: 10px;
+    border-radius: 20px;
+    background: #3800994a;
+    border-radius: 10px;
+    border: 4px solid #390099;
+    width: 100px;
+    height: 55px;
+    text-align: center;
+    align-items: center;
+    font-size:smaller;
+    align-self: center;
+}
+
+.btn-editar{
+    color: #390099;
+}
+
+#descripcion-perfil{
+    font-family: "Fredoka";
+    width: 559px;
+    border-color: #ffffff;
+    padding: 15px;
+    font-size: large;
+}
+
+.dif-perfil p{
+    font-size: x-large;
+    padding: 5;
+    flex-grow: 1;
+}
+
+.dif-perfil {
+    display: flex;
+    justify-content: space-between; 
+    width: 100%;
+}
+
+#comision{
+    background-color: #D9D9D9;
+    border-color: #D9D9D9;
+    border-radius: 20px;  
+    padding: 10px;
+    width: 85%; 
+    max-width: 1000px; 
+    height: 100px;
+    margin: 0 auto; 
+    display: block;
+    font-size: large;
+}
+
+#comision{
+    background-color: #FFD1E0;
+    border-color: #FFD1E0;
+    border-radius: 20px;  
+    padding: 10px;
+    width: 95%; 
+    max-width: 1000px; 
+    height: 100px;
+    margin: 0 auto; 
+    display: block;
+    font-size: large;
+    margin: 20px;
+}
+
+#comisionA{
+    background-color: #D8D8FF;
+    border-color: #D8D8FF;
+    border-radius: 20px;  
+    padding: 10px;
+    width: 95%; 
+    max-width: 1000px; 
+    height: 100px;
+    margin: 0 auto; 
+    display: block;
+    font-size: large;
+    margin: 20px;
+}
+
+#perfil{
+    height: 6rem;
+    width: 6rem; 
+    height: 80px;
+    width: 80px;
+}
+
+.input-with-icon {
+    position: relative;
+}
+
+.input-with-icon input {
+    padding-left: 25px;
+}
+
+.input-with-icon img {
+    position: absolute;
+    top: 7px; 
+    right: 490px; 
+    width: 50px; 
+    height: 50px;
+}
